@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo1E1-removebg-preview.png">
+    <title>Explore our music!!!</title>
+    <link rel="stylesheet" href="style_explore.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo1E1-removebg-preview.png" alt="Spotify" >Integral Music</li>
+            <li><div id="home"><a href="index.html">Home</a></div></li>
+            <li><div id="explore"><a href="explore.html">Explore</a></div></li>
+            <li><div id="about"><a href="about.html">About</a></div></li>
+        </ul>
+    </nav>
+    <div class="container">
+
+            <h1>Choose your category</h1>
+            <div id="div1">
+                <div id="div1_1"><h1>Trending</h1></div>
+                <div id="div1_2"><h1>Bollywood</h1></div>
+            </div>
+           
+    </div>
+    <script>
+        let cont1=document.getElementById('div1_1');
+let cont2=document.getElementById('div1_2');
+cont1.addEventListener('click',()=>{
+    window.location.href='trending.html';
+})
+cont2.addEventListener('click',()=>{
+    window.location.href='bollywood.html';
+})
+    </script>
+</body>
+</html>

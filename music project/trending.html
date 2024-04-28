@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo1E1-removebg-preview.png">
+    <title>Trending Songs</title>
+    <link rel="stylesheet" href="style_trending.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo1E1-removebg-preview.png" alt="Spotify" >Integral Music</li>
+            <li><div id="home"><a href="index.html">Home</a></div></li>
+            <li><div id="explore"><a href="explore.html">Explore</a></div></li>
+            <li><div id="about"><a href="about.html">About</a></div></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Some of the trending songs-</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="ent_covers/1.jpg">
+                    <span class="songName">Nightcall</span>
+                    <span class="songlistplay"><span class="timestamp">04:19 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="ent_covers/2.jpg">
+                    <span class="songName">Cheri Cheri Lady</span>
+                    <span class="songlistplay"><span class="timestamp">00:30 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="ent_covers/3.jpg">
+                    <span class="songName">Girls Like You</span>
+                    <span class="songlistplay"><span class="timestamp">04:34 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="ent_covers/4.jpg">
+                    <span class="songName">Shape of You</span>
+                    <span class="songlistplay"><span class="timestamp">04:23 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="ent_covers/5.jpg">
+                    <span class="songName">I LUV IT</span>
+                    <span class="songlistplay"><span class="timestamp">00:30 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="ent_covers/6.jpg">
+                    <span class="songName">Dynamite</span>
+                    <span class="songlistplay"><span class="timestamp">00:30 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="ent_covers/7.jpg">
+                    <span class="songName">Home-Resonance</span>
+                    <span class="songlistplay"><span class="timestamp">03:52 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="ent_covers/8.jpg">
+                    <span class="songName">Troublesome</span>
+                    <span class="songlistplay"><span class="timestamp">03:50 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="ent_covers/9.jpg">
+                    <span class="songName">Duvet-(Boa)</span>
+                    <span class="songlistplay"><span class="timestamp">03:22 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="ent_covers/10.jpg">
+                    <span class="songName">Deeply-(Boa)</span>
+                    <span class="songlistplay"><span class="timestamp">04:33 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="player.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Nightcall</span>
+        </div>
+    </div>
+    <script src="script_trending.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
